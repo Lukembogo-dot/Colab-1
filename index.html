@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a7efdc839d.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <style>
+    body{
+        background-color: rgb(90, 112, 64);
+        padding: 20px;
+        margin: 10px;
+    }
+    nav {
+        list-style-type: none;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px;
+        padding: 10px;
+        overflow: hidden;
+        background-color: #68cca6;
+        ;
+    }
+
     table, th, td {
-        border: 1px solid black;
+        border: 2px solid black;
         border-collapse: collapse;
     }
     th, td {
@@ -21,14 +39,12 @@
 <body>
 
     <h1>Welcome To Car Service Nyeri</h1>
-
-    <ul>
-        <li><a href="Home">Home</a></li>
-        <li><a href="Services">Services</a></li>
-        <li><a href="About Us">About Us</a></li>
-    </ul>
-    <p>
-    At Car Service Nyeri, <br> 
+<nav>
+        <li><a href="#Home"><i class="fa-solid fa-house"></i>Home</a></li>
+        <li><a href="#Services"><i class="fa-solid fa-clipboard"></i>Services</a></li>
+        <li><a href="#About Us"><i class="fa-solid fa-info-circle"></i>About Us</a></li>
+</nav>
+    <p style="color: aqua;">At Car Service Nyeri, <br> 
     we provide comprehensive automotive care to keep your vehicle running smoothly and safely.<br>
      Our experienced technicians offer a wide range of services, including routine maintenance, diagnostics, repairs, and genuine parts replacement. <br>
      We are committed to delivering reliable service and customer satisfaction, ensuring your car is always in top condition.
